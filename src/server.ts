@@ -142,7 +142,10 @@ export class InversifyExpressServer {
             const name = constructor.name;
 
             if (this._container.isBoundNamed(TYPE.Controller, name)) {
-                throw new Error(DUPLICATED_CONTROLLER_NAME(name));
+                // If controller is already defined, don't throw anything.
+                // TODO - implement HMR check
+                return;
+                // throw new Error(DUPLICATED_CONTROLLER_NAME(name));
             }
 
             this._container.bind(TYPE.Controller)
