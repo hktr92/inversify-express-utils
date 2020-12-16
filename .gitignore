@@ -41,7 +41,7 @@ typings
 .typingsrc
 #dts
 dist
-lib
+#lib
 es
 
 type_definitions/inversify/*.js
