@@ -39,7 +39,7 @@ bundled
 
 typings
 .typingsrc
-dts
+#dts
 dist
 lib
 es
