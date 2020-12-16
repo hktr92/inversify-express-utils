@@ -2,7 +2,7 @@
   "name": "inversify-express-utils",
   "version": "6.3.2",
   "description": "Some utilities for the development of express applications with Inversify",
-  "main": "lib/index.js",
+  "main": "src/index.ts",
   "jsnext:main": "es/index.js",
   "typings": "./dts/index.d.ts",
   "scripts": {
